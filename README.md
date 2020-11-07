@@ -2,7 +2,7 @@
 Challenge by Frontend Mentor
 
 # Challenge
-![](doc/)
+![](doc/active-states.jpg)
 
 ## Live Application URL
 
