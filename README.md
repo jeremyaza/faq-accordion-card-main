@@ -1,7 +1,7 @@
 # article-preview-component
 Challenge by Frontend Mentor
 
-# Challenge
+## Challenge
 ![](doc/active-states.jpg)
 
 ## Live Application URL
