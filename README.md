@@ -1,16 +1,16 @@
 # article-preview-component
-Challenge by Frontend Mentor
+Challenge by Frontend Mentor 💻
 
 ## Challenge
-![](doc/active-states.jpg)
+![](doc/faq-card.jpg)
 
-## Live Application URL
+## Live Application URL ✨
 
 The Application is deployed in https://
 
 Click on the link to see the application
 
-## Cloning and Running the Application in local
+## Cloning and Running the Application in local 🔮
 
 Clone the project into local
 
