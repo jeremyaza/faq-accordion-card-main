@@ -1,5 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+//Background
+$soft-violet: hsl(273, 75%, 66%);
+$soft-blue: hsl(240, 73%, 65%);
+//Dividers
+$light-grayish-blue: hsl(240, 5%, 91%);
+//Text
+$very-dark-desaturated-blue: hsl(238, 29%, 16%);
+$very-dark-grayish-blue: hsl(237, 12%, 33%);
+$dark-grayish-blue: hsl(240, 6%, 50%);
+//Text hover
+$soft-red: hsl(14, 88%, 65%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+#content_main {
+  background: linear-gradient(180deg, $soft-violet, $soft-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#content_card {
+  background: white;
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 0 10px 14px 0px #5943bc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_icons {
+  width: 50%;
+  padding: 4em 2em 4em 0;
+  background: url("../img/bg-pattern-desktop.svg") no-repeat -450px -220px / 180%;
+  #Woman {
+    position: relative;
+    left: -65px;
+    overflow: hidden;
+    width: 100%;
+  }
+  #Box {
+    position: absolute;
+    width: 12%;
+    top: 57%;
+    left: 13.5%;
+    transform: translate(-13.5%, -57%);
+  }
+}
+
+.content_information {
+  width: 50%;
+  border: none;
+  h2 {
+    color: $very-dark-desaturated-blue;
+    padding-bottom: 0.5em;
+    font-size: 2em;
+  }
+  .info {
+    width: 80%;
+    border-bottom: 1px solid $light-grayish-blue;
+    font-size: 0.85em;
+    .dropdown {
+      display: block;
+      align-items: center;
+      cursor: pointer;
+      .down {
+        display: none;
+        width: 100%;
+        ~ .description_info {
+          display: none;
+        }
+        &:checked {
+          ~ .title_info {
+            color: $very-dark-grayish-blue;
+            .icon-arrow {
+              transition: ease 0.5s;
+              transform: rotate(180deg);
+            }
+          }
+          ~ .description_info {
+            display: block;
+          }
+        }
+        &:hover {
+          .title_info {
+            color: $soft-red;
+          }
+        }
+      }
+      .title_info {
+        cursor: pointer;
+        color: $dark-grayish-blue;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em 0 0.7em 0;
+      }
+      &:hover {
+        .title_info {
+          color: $soft-red;
+        }
+      }
+      &:active {
+        .title_info {
+          color: $very-dark-grayish-blue;
+        }
+      }
+    }
+    .description_info {
+      color: $dark-grayish-blue;
+      font-weight: 400;
+      font-size: 12px;
+      padding: 0 0 0.6em 0;
+      line-height: 20px;
+    }
+  }
 }
