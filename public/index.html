@@ -4,15 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Jeremy Aza" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
     <title>Frontend Mentor | FAQ accordion card</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <h1>Hola</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ex saepe ad pariatur ab minima et. Magni sapiente rem nostrum minus velit quisquam, modi cum, dolorem non,
-      maiores ipsam accusantium.
-    </p>
+    <div id="content_main">
+      <div id="content_card">
+        <div class="content_icons">
+          <div class="icon_woman">
+            <img src="./img/illustration-woman-online-desktop.svg" alt="woman" id="Woman" />
+          </div>
+          <img src="./img/illustration-box-desktop.svg" alt="box" id="Box" />
+        </div>
+        <div class="content_information">
+          <h2>FAQ</h2>
+          <div class="info info_one">
+            <div class="dropdown">
+              <input type="checkbox" id="down1" class="down" />
+              <label for="down1" class="title_info">How many team members can I invite? <img class="icon-arrow" src="./img/icon-arrow-down.svg" alt="icon arrow" /></label>
+              <p class="description_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto perspiciatis explicabo.</p>
+            </div>
+          </div>
+          <div class="info info_two">
+            <div class="dropdown">
+              <input type="checkbox" id="down2" class="down" />
+              <label for="down2" class="title_info">What is the maximun file upload size? <img class="icon-arrow" src="./img/icon-arrow-down.svg" alt="icon arrow" /></label>
+              <p class="description_info">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+            </div>
+          </div>
+          <div class="info info_three">
+            <div class="dropdown">
+              <input type="checkbox" id="down3" class="down" />
+              <label for="down3" class="title_info">How do I reset my password? <img class="icon-arrow" src="./img/icon-arrow-down.svg" alt="icon arrow" /></label>
+              <p class="description_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto perspiciatis explicabo.</p>
+            </div>
+          </div>
+          <div class="info info_four">
+            <div class="dropdown">
+              <input type="checkbox" id="down4" class="down" />
+              <label for="down4" class="title_info">Can I cancel my subscription? <img class="icon-arrow" src="./img/icon-arrow-down.svg" alt="icon arrow" /></label>
+              <p class="description_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto perspiciatis explicabo.</p>
+            </div>
+          </div>
+          <div class="info info_five">
+            <div class="dropdown">
+              <input type="checkbox" id="down5" class="down" />
+              <label for="down5" class="title_info">Do you provide additional support? <img class="icon-arrow" src="./img/icon-arrow-down.svg" alt="icon arrow" /></label>
+              <p class="description_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto perspiciatis explicabo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
