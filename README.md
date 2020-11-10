@@ -6,7 +6,7 @@ Challenge by Frontend Mentor 💻
 
 ## Live Application URL ✨
 
-The Application is deployed in https://
+The Application is deployed in https://faq-card.herokuapp.com/
 
 Click on the link to see the application
 
